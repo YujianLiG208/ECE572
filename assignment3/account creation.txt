@@ -1,0 +1,4 @@
+* When creating and signing in an account, use the traditional account + PW setup approach; do not use GitHub, as this is incomplete and for the assignment 2 demo only.
+* When it comes to setting up 2FA, the PNG file of the QR code will be generated in the same directory as the .py file. Use Google Authenticator to scan it, and you are all set.
+* When you need to create an admin account, follow the regular approach as above, but after creating the account, go to the "users.json" file, modify the "admin": false to "admin": true.
+* Accounts are created as non-admin accounts by default. After you manually set up the admin, you will then be able to use the admin-only features.
